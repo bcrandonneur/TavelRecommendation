@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>My Travel Recommendations</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li>LOGO HERE</li>
-            <li><a href="./travel_recommendation.html">Home</a></li>
-            <li><a href="./tr_about_us.html">About Us</a></li>
-            <li><a href="./tr_contact_us.html">Contact Us</a></li>
-            <li><button id='btnSearch'>Search</button></li>
-        </ul>
+        <div class="navLeft">Logo Here</div>
+        <div class="navCenter">
+            <ul>
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./tr_about_us.html">About Us</a></li>
+                <li><a href="./tr_contact_us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navRight">
+                <input type="text" id="searchText" placeholder="Enter a destination">
+                <button id='btnSearch'>Search</button>
+                <button id='btnReset'>Clear</button>
+        </div>
     </nav>
 </body>
 </html>
